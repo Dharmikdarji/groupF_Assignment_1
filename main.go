@@ -54,6 +54,14 @@ func main() {
 	// Created by Komal Negah
 	fmt.Println("::Komal Negah functions's output::")
 	repeat("\nKomal", 10)
+
+	// Created  by ramandeep
+	length := 8.8
+	width := 6.7
+
+	area := calc_rec(length, width)
+
+	fmt.Printf("The length of rectangle is %.2f\n The width is %.2f\n Total calculated area is %.2f\n", length, width, area)
 }
 
 // function One
@@ -150,4 +158,12 @@ func repeat(text string, digit int) {
 	for i := 0; i < digit; i++ {
 		fmt.Println(text)
 	}
+}
+
+// Function seven
+// Created by Ramandeep Kaur
+// Purpose:to calculate the area of reactangle
+// calc_rec calculates the area of a rectangle given its length and width
+func calc_rec(length, width float64) float64 {
+	return length * width
 }

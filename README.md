@@ -43,3 +43,9 @@ This Go program demonstrates several functions created by different contributors
   - Repeat the given Word
   - Input:Any word.
   - Output: Repeat Word
+
+  **Ramandeep kaur**
+  -Function: 'calc_rec'
+  - Repeat the given Word
+  - Input:width and length.
+  - Output: rectangle
