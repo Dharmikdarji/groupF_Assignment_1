@@ -55,6 +55,13 @@ func main() {
 	fmt.Println("::Komal Negah functions's output::")
 	repeat("\nKomal", 10)
 
+	// Test the isPrime function
+	// Created by Richard
+	fmt.Println("::RICHARD functions's output::")
+	primeNum := 13
+	fmt.Printf("%d is prime? %t\n", primeNum, isPrime(primeNum))
+	fmt.Println("")
+
 	// Created  by ramandeep
 	length := 8.8
 	width := 6.7
@@ -166,4 +173,21 @@ func repeat(text string, digit int) {
 // calc_rec calculates the area of a rectangle given its length and width
 func calc_rec(length, width float64) float64 {
 	return length * width
+}
+
+// function ten
+// created by Richard
+// isPrime checks if a given number is a prime number.
+// INPUT:  the number to be checked for primality
+// OUTPUT: true if num is a prime number, false otherwise (boolean)
+func isPrime(num int) bool {
+	if num <= 1 {
+		return false
+	}
+	for i := 2; i*i <= num; i++ {
+		if num%i == 0 {
+			return false
+		}
+	}
+	return true
 }

@@ -49,3 +49,6 @@ This Go program demonstrates several functions created by different contributors
   - Repeat the given Word
   - Input:width and length.
   - Output: rectangle
+
+    **Richard**
+  -Function: 'check_prime'
